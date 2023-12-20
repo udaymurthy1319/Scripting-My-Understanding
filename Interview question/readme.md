@@ -82,15 +82,15 @@ Window size change. Sent to a process when the terminal window size changes.\
 I/O now possible. Indicates that input or output is ready to be processed.\
 **SIGPWR (30):**\
 Power failure\
-SIGSYS (31):\
+**SIGSYS (31):**\
 Bad system call. Indicates that a process has issued a bad system call.\
-kill -9 1111--> kill a specific file with PID 1111\
-trap--> to trap any signal.\
-Shebang- #!/bin\
-difference between #!/sh and #!/bash --> previously sh also used to link with bash using linking concept but now it is linking with dash.\
+**kill -9 1111**--> kill a specific file with PID 1111\
+**trap**--> to trap any signal.\
+**Shebang**- #!/bin\
+**difference between #!/sh and #!/bash** --> previously sh also used to link with bash using linking concept but now it is linking with dash.\
 There might be some syntax difference b/w bash, sh, dash, ksh but end of the all same\
-Linking concept-->\
-Soft link--> Soft links are files that act as pointers to the target file or directory; they contain the path name of the target file.\
-Hardlink--> Hard links are additional directory entries pointing to the same inode as the target file or directory.\
+**Linking concept**-->\
+**Soft link**--> Soft links are files that act as pointers to the target file or directory; they contain the path name of the target file.\
+**Hardlink**--> Hard links are additional directory entries pointing to the same inode as the target file or directory.\
 date | echo "date is" --> it only prints date is because the date command provides the output in stdin format; so pipe doesnt read in stdin format\
 
